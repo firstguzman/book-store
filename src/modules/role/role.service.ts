@@ -4,7 +4,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { plainToClass, plainToClassFromExist } from 'class-transformer';
+import { plainToClass } from 'class-transformer';
 import { Role } from '../role/role.entity';
 import { CreateRoleDto, ReadRoleDto, UpdateRoleDto } from './dtos';
 import { RoleRepository } from './role.repository';

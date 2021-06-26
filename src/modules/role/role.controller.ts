@@ -9,7 +9,6 @@ import {
   Post,
 } from '@nestjs/common';
 import { CreateRoleDto, ReadRoleDto, UpdateRoleDto } from './dtos';
-import { Role } from './role.entity';
 import { RoleService } from './role.service';
 
 @Controller('roles')
