@@ -9,8 +9,6 @@ import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
   imports: [ConfigModule, DatabaseModule, UserModule, RoleModule, AuthModule],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {
   static port: number | string;
